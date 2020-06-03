@@ -10,6 +10,7 @@ Vue 3 with Vite playground generated with https://github.com/vitejs/create-vite-
  * vuex
  * vue-i18n
  * tailwindcss
+ * miragejs
 
 ### Notes
 
