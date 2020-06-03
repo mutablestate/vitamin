@@ -8,6 +8,7 @@
     "test": "jest --watchAll"
   },
   "dependencies": {
+    "miragejs": "^0.1.40",
     "vue": "^3.0.0-beta.14",
     "vue-i18n": "^9.0.0-alpha.10",
     "vue-router": "^4.0.0-alpha.12",

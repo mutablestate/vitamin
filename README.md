@@ -11,6 +11,10 @@ Vue 3 with Vite playground generated with https://github.com/vitejs/create-vite-
  * vue-i18n
  * tailwindcss
 
+### Notes
+
+ * Vite only pre-bundles dependencies under dependencies - if you intend to import it in your code, it should be under dependencies (miragejs).
+
 ### Issues
 
   * snapshot serializer Vue 3 support
