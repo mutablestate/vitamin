@@ -20,7 +20,7 @@ module.exports = {
     '^@/(.*)$': '<rootDir>/src/$1'
   },
   // serializer for snapshots
-  snapshotSerializers: ['jest-serializer-vue'],
+  snapshotSerializers: [require.resolve('./jest-serializer-vue3')],
   testMatch: ['**/tests/unit/**/*.spec.[jt]s?(x)', '**/__tests__/*.[jt]s?(x)'],
   // https://github.com/facebook/jest/issues/6766
   testURL: 'http://localhost/',

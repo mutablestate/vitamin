@@ -6,6 +6,7 @@ Vue 3 with Vite playground generated with https://github.com/vitejs/create-vite-
 
  * eslint and prettier
  * jest
+ * custom jest snapshot serializer (Vue 3)
  * vue-router
  * vuex
  * vue-i18n
@@ -18,12 +19,6 @@ Vue 3 with Vite playground generated with https://github.com/vitejs/create-vite-
 
 ### Issues
 
-  * snapshot serializer Vue 3 support
-    - [] output includes unwanted vnodes (see `example.spec.js.snap`)
-    - [] test run warning (run `yarn test`)
-  ```
-  [Vue warn]: Avoid app logic that relies on enumerating keys on a component instance. The keys will be empty in production mode to avoid performance overhead.
-  ```
 
 ## Up and running
 
