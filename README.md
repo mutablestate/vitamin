@@ -6,7 +6,7 @@ Vue 3 with Vite playground generated with https://github.com/vitejs/create-vite-
 
  * eslint and prettier
  * jest
- * custom jest snapshot serializer (Vue 3)
+ * naive custom jest snapshot serializer (Vue 3)
  * vue-router
  * vuex
  * vue-i18n
@@ -15,7 +15,8 @@ Vue 3 with Vite playground generated with https://github.com/vitejs/create-vite-
 
 ### Notes
 
- * Vite only pre-bundles dependencies under dependencies - if you intend to import it in your code, it should be under dependencies (miragejs).
+ * Vite only pre-bundles package dependencies in the `dependencies` section of `package.json`.
+ If you **import** a dependency in your code it must be under `dependencies` and not `devDependencies` (see `miragejs`).
 
 ### Issues
 
@@ -40,8 +41,9 @@ yarn dev
 yarn build
 ```
 
-4. Run Jest test watcher
+4. Run Jest
 
 ```
 yarn test
+yarn test:watch
 ```
