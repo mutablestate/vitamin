@@ -2,6 +2,7 @@
 
 exports[`HelloWorld.vue renders props.msg when passed 1`] = `
   <div
+    data-v-app=""
     id="app"
   >
     
