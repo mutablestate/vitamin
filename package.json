@@ -32,7 +32,7 @@
     "prettier": "^2.0.5",
     "tailwindcss": "^1.4.6",
     "typescript": "^3.9.6",
-    "vite": "^0.20.10",
+    "vite": "^2.9.13",
     "vue-jest": "^5.0.0-alpha.1"
   }
 }
